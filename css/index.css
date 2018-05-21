@@ -1554,6 +1554,9 @@ body {
   color: #fff;
   font-size: .25rem;
 }
+.main .details .page4 > div p {
+  font-size: ;
+}
 .main .details .page4 > div *,
 .main .details .page4 > div *:before,
 .main .details .page4 > div *:after {
@@ -1564,13 +1567,17 @@ body {
   width: .9rem;
   height: .9rem;
   border-radius: 50%;
-  margin-top: .7rem;
+  margin-top: 1rem;
   z-index: 0;
 }
 .main .details .page4 > div .ball:after {
-  content: '';
+  content: '行政';
   position: absolute;
   display: block;
+  font-size: .2rem;
+  text-align: center;
+  color: #fff;
+  line-height: .9rem;
   top: 0;
   left: 0;
   height: 100%;
@@ -1580,10 +1587,10 @@ body {
   background: #6E64F0;
   z-index: 1;
 }
-.main .details .page4 > div .ball:focus {
+.main .details .page4 > div .ball {
   outline: none;
 }
-.main .details .page4 > div .ball:focus:after {
+.main .details .page4 > div .ball:after {
   -webkit-animation: bounce 400ms infinite alternate;
   animation: bounce 400ms infinite alternate;
 }
@@ -1643,7 +1650,7 @@ body {
     animation-timing-function: cubic-bezier(0, 0, 0, 1);
   }
 }
-.main .details .page4 > div .ball:focus:before {
+.main .details .page4 > div .ball:before {
   content: '';
   position: absolute;
   display: block;
@@ -2161,6 +2168,9 @@ body {
 .main .details .page4.swiper-slide-active .for-job {
   animation: swing .4s both;
 }
+.main .details .page5 > div {
+  padding: 0;
+}
 .main .details .page5 dl {
   background-color: #fff9c1;
   color: #5cb2a9;
@@ -2187,12 +2197,35 @@ body {
 .main .details .page5 .page5-item:nth-child(2) {
   transform: rotateZ(5deg);
 }
-.main .details .page6 ul {
-  background-color: #5975ff;
+.main .details .page6 .big {
   color: #fff;
+  background-color: #fff;
   font-size: .6rem;
   line-height: 1.5;
   padding: .2rem;
+  padding-top: 1rem;
+}
+.main .details .page6 .big .bottom {
+  position: relative;
+  width: 90%;
+  margin: 0 auto;
+  background: #fff url("../img/self.gif") no-repeat 0.2rem;
+  background-size: 100%;
+}
+.main .details .page6 .big .bottom .big-img {
+  border: 3px solid #a71d5d;
+  position: absolute;
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  overflow: hidden;
+  display: none;
+  background: #fff url("../img/self.gif") no-repeat;
+  background-size: 1500px;
+}
+.main .details .page6 .big .ipad {
+  width: 100%;
+  display: block;
 }
 .swiper-container {
   background-color: #D3CED3;
