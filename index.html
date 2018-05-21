@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="x-ua-compatible">
+    <meta name="viewport" content="width=320, initial-scale=1.0">
+    <title>h5简历</title>
+    <meta name="keywords" content="h5简历，简历，web求职简历">
+    <meta name="description" content="这是一份h5形式的求职简历">
+    <link rel="shortcut icon" href="icon.ico">
+    <link rel="stylesheet" href="css/home.css">
+    <!--dev-->
+    <!--<link rel="stylesheet" href="css/index.css">-->
+    <link rel="stylesheet/less" href="css/index.less">
+    <script src="js/less.js"></script>
+    <script>
+        ~function () {
+            function fontSize() {
+                let des = 640,
+                    dev = document.documentElement,
+                    w = dev.clientWidth;
+//                dev.style.fontSize=dev.clientWidth / des * 100+"px";
+
+                dev.style.fontSize = w < 640 ? dev.clientWidth / des * 100 + "px" : "100px";
+                w > 620 ? dev.style.fontSize = "50px" : null;
+            }
+
+            fontSize();
+            window.onresize = fontSize;
+        }()
+
+
+    </script>
+</head>
+<body>
+<main class="main">
+    <!--.start-->
+    <section class="start">
+
+        <div class="start-title">
+            <h1>詹玉佩</h1>
+            <h2>H5场景的交互型简历</h2>
+        </div>
+        <div class="start-progress">
+            <div class="run"></div>
+        </div>
+    </section>
+    <!--/.start-->
+
+    <!--.answer-->
+    <section class="answer">
+        <div class="title">
+            <img src="img/wx-zpp.jpg" alt="詹佩佩的微信头像">
+            <h3>詹玉佩</h3>
+            <p class="title-time">00:00</p>
+        </div>
+
+        <div class="listen">
+            <i class="listen-circle"></i>
+            <img src="img/phoneListen.png" class="listen-bg">
+            <a class="listen-href" href="javascript:;"></a>
+        </div>
+        <div class="listening">
+            <img src="img/phoneDetail.png" alt="" class="listening-bg">
+            <a href="javascript:;" class="listening-href"></a>
+        </div>
+        <audio class="answer-bell" src="audio/bell.mp3" loop preload="none" e></audio>
+        <audio class="answer-intro" src="audio/say.mp3" preload="none"></audio>
+    </section>
+    <!--/.answer-->
+
+    <!--.message-->
+    <section class="message">
+        <div class="message-header">
+            <div class="message-header-left"><span>&lt;</span>微信</div>
+            <i class="icon-lxr message-header-right">&#xe654</i>
+            <h3>BOSS</h3>
+        </div>
+        <ul class="message-box">
+            <li class="message-boss">
+                <img src="img/wx-boss.png" alt="">
+                <p>你有什么优势</p>
+            </li>
+            <li class="message-zyp">
+                <img src="img/wx-zpp.jpg" alt="">
+                <p>熟练使用办公软件，善用ps，有一颗学到老活到老的心</p>
+            </li>
+            <li class="message-boss">
+                <img src="img/wx-boss.png" alt="">
+                <p>还有呢?</p>
+            </li>
+            <li class="message-zyp">
+                <img src="img/wx-zpp.jpg" alt="">
+                <p>做事认真负责，谨小慎微</p>
+            </li>
+            <li class="message-zyp">
+                <img src="img/wx-zpp.jpg" alt="">
+                <p>愿意为公司发光发热</p>
+            </li>
+            <li class="message-zyp">
+                <img src="img/wx-zpp.jpg" alt="">
+                <p>具备良好的服务意识、责任心、较强的学习能力、优秀的团队沟通与协作能力、能承受一定的工作压力；</p>
+
+            </li>
+            <li class="message-boss">
+                <img src="img/wx-boss.png" alt="">
+                <p>还有呢？</p>
+            </li>
+
+            <li class="message-zyp">
+                <img src="img/wx-zpp.jpg" alt="">
+                <p>喜欢尝试新事物，思维不固化</p>
+            </li>
+        </ul>
+        <div class="message-keyboard">
+            <span data-talk="做事认真负责，谨小慎微"></span>
+            <a href="javascript:;" class="keyboard-tag"></a>
+        </div>
+        <audio src="audio/music.mp3" loop></audio>
+
+    </section>
+    <!--/.message-->
+
+    <!--.cube-->
+    <section class="cube">
+        <ul class="cubebox">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="figure">
+            <img src="img/cubeTip.png" alt="">
+        </div>
+    </section>
+    <!--/.cube-->
+
+    <!--.example-->
+    <section class="details swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide page1">
+                <ul class="page1-list">
+                    <li>
+                        <svg viewBox="0 0 80 76" x="0px" y="0px">
+                            <g>
+                                <path d="M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z"></path>
+                            </g>
+                        </svg>
+                        <div class="info">
+                            <h3>技能</h3>
+                            <p>熟练使用办公软件</p>
+                            <p>excel,ppt,word</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 80 76" x="0px" y="0px">
+                            <g>
+                                <path d="M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z"></path>
+                            </g>
+                        </svg>
+                        <div class="info">
+                            <h3>性格优势</h3>
+                            <p>做事踏实不激进</p>
+                        </div>
+
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 80 76" x="0px" y="0px">
+                            <g>
+                                <path d="M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z"></path>
+                            </g>
+                        </svg>
+                        <div class="info">
+                            <h3>性格优势</h3>
+                            <p>喜好尝试新事物</p>
+                        </div>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 80 76" x="0px" y="0px">
+                            <g>
+                                <path d="M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z"></path>
+                            </g>
+                        </svg>
+                        <div class="info">
+                            <h3>英语水平</h3>
+                            <p>CET-4</p></div>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 80 76" x="0px" y="0px">
+                            <g>
+                                <path d="M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z"></path>
+                            </g>
+                        </svg>
+                        <div class="info">
+                            <h3>普通话水平</h3>
+                            <p>二级乙等</p>
+                        </div>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 80 76" x="0px" y="0px">
+                            <g>
+                                <path d="M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z"></path>
+                            </g>
+                        </svg>
+                        <div class="info">
+                            <h3>其他证书</h3>
+                            <p>初中数学教师资格证</p>
+                            <p>会计证</p>
+                        </div>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 80 76" x="0px" y="0px">
+                            <g>
+                                <path d="M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z"></path>
+                            </g>
+                        </svg>
+                        <div class="info">
+                            <h3>给个机会</h3>
+
+                        </div>
+                    </li>
+                    <li>
+                        <svg viewBox="0 0 80 76" x="0px" y="0px">
+                            <g>
+                                <path d="M 68.9708 24.8623 L 60.4554 2.3018 C 59.9641 0.7017 58.1628 -0.2583 56.5252 0.3817 L 1.9822 20.2222 C 0.3822 20.7022 -0.4179 22.6222 0.2222 24.2223 L 8.8624 47.7797 L 8.8624 35.1484 C 8.8624 29.5024 13.3425 24.8623 18.8857 24.8623 L 32.9442 24.8623 L 50.63 12.862 L 60.7829 24.8623 L 68.9708 24.8623 L 68.9708 24.8623 ZM 77.098 32.0625 L 18.8857 32.0625 C 17.2512 32.0625 16.0625 33.4511 16.0625 35.1484 L 16.0625 72.8491 C 16.0625 74.5477 17.2512 75.9375 18.8857 75.9375 L 77.098 75.9375 C 78.742 75.9375 79.9376 74.5477 79.9376 72.8491 L 79.9376 35.1484 C 79.9376 33.4511 78.742 32.0625 77.098 32.0625 L 77.098 32.0625 ZM 73.0626 68.0625 L 23.9375 68.0625 L 23.9375 61.0852 L 31.4704 43.7232 L 42.7696 57.6777 L 53.4138 46.8062 L 67.1695 41.9375 L 73.0626 55.0815 L 73.0626 68.0625 L 73.0626 68.0625 Z"></path>
+                            </g>
+                        </svg>
+                        <div class="info">
+                            <h3>给个机会</h3>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="swiper-slide page2">
+                <div>
+                    <div class="single-member effect-1">
+                        <div class="member-image">
+                            <img src="img/example1.png" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h3>小说阅读器</h3>
+                            <p>自己制作了一个在线小说阅读器，欢迎扫码观看或点击下方链接</p>
+                            <p>
+                                <a href="https://zhanpeipei.github.io/vue-booking/" target="_blank"> 小说阅读app </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="single-member effect-2">
+                        <div class="member-image">
+                            <img src="img/exaxple2.png" alt="">
+                        </div>
+                        <div class="member-info">
+                            <h3>音乐播放器</h3>
+                            <p>因QQ音乐的原因，暂时在生产环境跑不起来</p>
+                            <p>
+                                <a href="https://zhanpeipei.github.io/vue-booking/" target="_blank"> 小说阅读app </a>
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="swiper-slide page3">
+                <div class="wall">
+                    <h3>时间</h3>
+                    <p class="time">
+                        <span class="realshadow">2</span>
+                        <span class="realshadow">0</span>
+                        <span class="realshadow">1</span>
+                        <span class="realshadow">0</span>
+                        <span class="realshadow">.</span>
+                        <span class="realshadow">0</span>
+                        <span class="realshadow">9</span>
+                        <span class="realshadow">-</span>
+                        <span class="realshadow">2</span>
+                        <span class="realshadow">0</span>
+                        <span class="realshadow">1</span>
+                        <span class="realshadow">4</span>
+                        <span class="realshadow">.</span>
+                        <span class="realshadow">0</span>
+                        <span class="realshadow">6</span>
+                    </p>
+                    <h3>学校</h3>
+                    <p>
+                        <span class="realshadow">江</span>
+                        <span class="realshadow">西</span>
+                        <span class="realshadow">理</span>
+                        <span class="realshadow">工</span>
+                        <span class="realshadow">大</span>
+                        <span class="realshadow">学</span>
+                    </p>
+                    <h3>专业</h3>
+                    <p>
+                        <span class="realshadow">金</span>
+                        <span class="realshadow">融</span>
+                        <span class="realshadow">学</span>
+                    </p>
+                </div>
+            </div>
+            <div class="swiper-slide page4">
+                <div>
+                    <div class="dog">
+                        <div class="dog-body">
+                            <div class="dog-tail">
+                                <div class="dog-tail">
+                                    <div class="dog-tail">
+                                        <div class="dog-tail">
+                                            <div class="dog-tail">
+                                                <div class="dog-tail">
+                                                    <div class="dog-tail">
+                                                        <div class="dog-tail"></div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dog-torso"></div>
+                        <div class="dog-head">
+                            <div class="dog-ears">
+                                <div class="dog-ear"></div>
+                                <div class="dog-ear"></div>
+                            </div>
+                            <div class="dog-eyes">
+                                <div class="dog-eye"></div>
+                                <div class="dog-eye"></div>
+                            </div>
+                            <div class="dog-muzzle">
+                                <div class="dog-tongue"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ball" tabindex="0"></div>
+                </div>
+            </div>
+            <div class="swiper-slide page5">
+                <div>
+                    <div class="event_wrap clearfix">
+                        <h3>工作经验</h3>
+                        <div class="middle_line">
+                        </div>
+                    </div>
+                </div>
+
+                <!--<dl>-->
+                    <!--<dt class="job-exercise">工作经验</dt>-->
+                    <!--<dd class="page5-item">-->
+                        <!--<p><span>时间：</span>2015.09-2016.07 </p>-->
+                        <!--<p><span>地点：</span>上饶德兴市黄柏小学 </p>-->
+                        <!--<p><span>职位：</span>英语老师</p>-->
+                        <!--<p><span>细节：</span>负责三四年级的英语教学</p>-->
+                    <!--</dd>-->
+                    <!--<dd class="page5-item">-->
+                        <!--<p><span>时间：</span> 2014.07-2015.07 </p>-->
+                        <!--<p><span>地点：</span>福建南平市邮政公司 </p>-->
+                        <!--<p><span>职位：</span>金融岗位</p>-->
+                        <!--<p><span>细节：</span>在邮政公司管理下的邮政储蓄银行担任柜员一职</p>-->
+                    <!--</dd>-->
+                <!--</dl>-->
+
+
+            </div>
+            <div class="swiper-slide page6">
+                <div class="big">
+                    <div class="bottom">
+                        <img class="ipad" src="img/ipad.png" alt="">
+                        <div class="big-img big_img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="swiper-pagination" id="pagination"></div>
+        <div class="come-back">
+            <span>返回魔方</span>
+        </div>
+
+    </section>
+
+    <!--/.example-->
+</main>
+<script src="js/zepto.min.js"></script>
+<script src="js/swiper.min.js"></script>
+<script src="js/realshadow.js"></script>
+<script src="js/jquery.eventFlow.js"></script>
+<script src="js/index.js"></script>
+<script type="text/javascript">
+$(function(){
+    realshadow($('.realshadow'));
+
+    var bigEvent =[{
+        'year' : 2015,
+        'events' :[
+            {
+                'mouths' : 7,
+                'times' :'2015年7月',
+                'even' :'进入福建省南平市邮政公司，就职金融岗，主要在其管理下的邮政储蓄银行担任柜员一职'
+            }
+            ]
+    },{
+        'year' : 2016,
+        'events' :[
+            {
+                'mouths' : 7,
+                'times' :'2016年7月',
+                'even' :'从福建省南平邮政公司离职'
+            },{
+                'mouths' : 9,
+                'times' :'2016年9月',
+                'even' :'黄柏小学担任三四年级英语教师'
+            }
+        ]},
+        {
+            'year' : 2017,
+            'events' :[
+                {
+                    'mouths' : 1,
+                    'times' :'2017年1月',
+                    'even' :'从黄柏小学离职'
+                },{
+                    'mouths' : 3,
+                    'times' :'2017年3月',
+                    'even' :'任职行政文员，负责公司数据汇总'
+                }
+            ]}
+];
+    $('.event_wrap').eventFlow({'events':bigEvent});
+})
+
+
+</script>
+</body>
+</html>
